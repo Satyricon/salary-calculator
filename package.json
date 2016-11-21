@@ -1,0 +1,15 @@
+{
+  "name": "salary-calculator",
+  "version": "1.0.0",
+  "description": "Monthly wage calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuri Barseghyan",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^1.11.0",
+    "lodash": "^4.17.2"
+  }
+}
