@@ -64,9 +64,9 @@ This will execute Scala tests locate under src/test/scala directory.
 Test coverage is not full. Currently only basic cases have been implemented.
 
 ## Running the application
-This is a Scala Spark Application. Used Scala version is 2.11. 
+This is a Scala Spark Application. I used Scala version is 2.11, so for running it you will need to install Scala and sbt.
 
-There are 3 different ways to run this application.
+After you got scala and sbt installed, there are 3 different ways to run this application.
 
 ### Using IntelliJ
 Clone the repository and create out of it new SBT scala project. IDE will download all the needed dependencies. After that create run configuration through Run menu (Run -> Run... -> Edit Configurations...)
