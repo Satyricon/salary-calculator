@@ -110,3 +110,10 @@ bin/spark-submit --master SPARK_MASTER_REST_URL --deploy-mode cluster PATH_TO_AP
 where SPARK_MASTER_REST_URL is the URL aquired from Spark Master's web page. In this case PATH_TO_THE_INPUT_CSV_FILE and PATH_TO_THE_OUTPUT_FILE should be full paths to those files. Otherwise Spark will try to search for them under its home directories.
 
 This command will submit our Salary Calculator appliation to Spark and you will be able to see its progress through Web UI. When job has been finished, you should see output file under specified location (PATH_TO_THE_INPUT_CSV_FILE).
+
+To stop Spark master and worker execute
+
+```
+sbin/stop-master.sh
+sbin/stop-slave.sh
+```
