@@ -52,7 +52,18 @@ Calculations will be as follows: 2 first hour will be calculated with evening co
 2 * (3.75 + 1.15) + 6 * 3.75 + 2 * (3.75 + 3.75 * 0.25) + 2 * (3.75 + 3.75 * 0.5) + 4 * (3.75 + 3.75) = 82.925
 ```
 
-## Running the appliation
+## Running test
+Under application's home directory execute
+
+```
+sbt test
+```
+
+This will execute Scala tests locate under src/test/scala directory.
+
+Test coverage is not full. Currently only basic cases have been implemented.
+
+## Running the application
 This is a Scala Spark Application. Used Scala version is 2.11. 
 
 There are 3 different ways to run this application.
