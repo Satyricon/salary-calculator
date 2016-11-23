@@ -32,13 +32,13 @@ object SalaryCalculator {
   val overtimeDoubleMultiplier: Double = 2
 
   def main(args: Array[String]) {
-    if(args.length == 0) {
-      println("You forgot to provide csv file path")
+    if(args.length != 2) {
+      println("You forgot to provide input csv file path and output file path")
       System.exit(0)
     }
 
     val inputFilePath = args(0)
-    val outputFilePath = if(args(1).isEmpty) "salaries.csv" else args(1)
+    val outputFilePath = args(1)
 
     val sparkSession = SparkSession.builder
       .master("local")
