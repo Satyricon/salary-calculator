@@ -1,4 +1,4 @@
-# Apache Spark Salary calculator
+# Apache Spark Salary Calculator Application
 
 This application calculates monthly wage for every person based on the given calculation guidelines.
 
